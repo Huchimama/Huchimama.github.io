@@ -51,7 +51,7 @@ header nav {
 
 .parallax-three {
     background-image: url(img/background-3.jpg);
-    height: 300px;
+    height: auto;
     width: 100%;
     color: white;
     position: relative;
@@ -60,6 +60,11 @@ header nav {
     background-position-x: center;
     background-size: cover;
     margin-bottom: 50px;
+}
+
+h4 {
+    margin-bottom: 20px;
+    margin-top: 25px;
 }
 
 .blur {
@@ -99,6 +104,7 @@ header nav {
 
 hr {
     color: #097392;
+    padding-bottom: 5px;
 }
 
 a {
